@@ -1,5 +1,5 @@
 {
-  "name": "gh-conf-write",
+  "name": "@gh-conf/gh-conf-write",
   "version": "1.0.0",
   "description": "Writes to github config",
   "main": "index.js",
