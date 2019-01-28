@@ -8,7 +8,7 @@ const CONFIG_CONTENT = `[core]
 \tbare = false
 \tlogallrefupdates = true
 [remote "origin"]
-\turl = git@github.com:gh-conf/gh-conf-path
+\turl = git@github.com:gh-conf/gh-conf-write
 \tfetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 \tremote = origin
