@@ -1,4 +1,4 @@
-const writeConf = require('./write-config');
+const { writeConf } = require('gh-conf/gh-conf-write');
 
 
 module.exports = {
