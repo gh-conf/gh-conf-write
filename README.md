@@ -27,7 +27,7 @@ $ npm install @gh-conf/gh-conf-write
 ## Usage
 
 ```javascript
-const readConf = require('gh-conf/gh-conf-write');
+const { writeConf } = require('@gh-conf/gh-conf-write');
 
 (async () => {
   try {
