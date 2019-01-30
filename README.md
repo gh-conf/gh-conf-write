@@ -31,8 +31,8 @@ const { writeConf } = require('@gh-conf/gh-conf-write');
 
 (async () => {
   try {
-    const configContent = await writeConf('./gh-conf-write', 'CONTENT');
-    console.log(configContent);
+    const writeResult = await writeConf('./gh-conf-write', 'CONTENT');
+    console.log(writeResult);
     /**
      * {
      *   status: 'success',
