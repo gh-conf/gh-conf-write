@@ -6,7 +6,7 @@ Write content to github config file
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-write.svg)](https://github.com/gh-conf/gh-conf-write)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-write.svg)](https://github.com/gh-conf/gh-conf-write/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-write.svg)](https://github.com/gh-conf/gh-conf-write/commits/master)
-
+[![NPM Version](https://img.shields.io/npm/v/@gh-conf/gh-conf-write.svg)](https://www.npmjs.com/package/@gh-conf/gh-conf-write)
 
 It reads the github config file and returns it contents.
 It needs respository path as input to read the config.
@@ -37,8 +37,8 @@ const { writeConf } = require('@gh-conf/gh-conf-write');
      * {
      *   status: 'success',
      *   message: 'Config updated',
-     *   data: { 
-     *       content: 'CONTENT' 
+     *   data: {
+     *       content: 'CONTENT'
      *   }
      * }
      **/
