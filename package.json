@@ -1,6 +1,6 @@
 {
   "name": "@gh-conf/gh-conf-write",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Writes to github config",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,10 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
+    "@gh-conf/gh-conf-constants": "^1.0.0",
+    "@gh-conf/gh-conf-path": "^1.0.0",
     "@gh-conf/gh-conf-response": "^1.0.2",
-    "@gh-conf/gh-conf-validate": "^1.0.1",
-    "@gh-conf/gh-conf-path": "^1.0.0"
+    "@gh-conf/gh-conf-validate": "^1.0.1"
   },
   "keywords": [
     "github",

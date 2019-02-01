@@ -3,9 +3,7 @@ const fs = require('fs');
 const { formatSuccess, formatError } = require('@gh-conf/gh-conf-response')
 const { validatePath } = require('@gh-conf/gh-conf-validate');
 const { addSlash } = require('@gh-conf/gh-conf-path');
-
-// Constants
-const GIT_CONFIG_PATH = '.git/config'
+const { GH_PATH } = require('@gh-conf/gh-conf-constants');
 
 
 /**
@@ -18,7 +16,7 @@ const writeConf = (path, content) => {
   return new Promise((resolve, reject) => {
 
     // Validate input path
-    validatePath(path, GIT_CONFIG_PATH);
+    validatePath(path, GH_PATH['CONFIG']);
 
     // Check and add ending slash if does not exists
     path = addSlash(path);
@@ -29,9 +27,9 @@ const writeConf = (path, content) => {
     }
 
     // Write content to config by path
-    fs.writeFile(`${path}${GIT_CONFIG_PATH}`, content, 'utf8', function (err) {
+    fs.writeFile(`${path}${GH_PATH['CONFIG']}`, content, 'utf8', function (err) {
       if (err) {
-        return reject(formatError(`${path}${GIT_CONFIG_PATH} not found`, err));
+        return reject(formatError(`${path}${GH_PATH['CONFIG']} not found`, err));
       }
 
       return resolve(formatSuccess('Config updated', { content: content }));
