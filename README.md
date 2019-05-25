@@ -55,3 +55,13 @@ Interested in contributing to this project?
 You can log any issues or suggestion related to this library [here](https://github.com/gh-conf/gh-conf-write/issues/new)
 
 Read our contributing [guide](CONTRIBUTING.md) on getting started with contributing to the codebase
+
+Contributors Hall of Fame
+
+<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
+
+<a href="https://github.com/justingolden21"><img src="https://github.com/justingolden21.png" width="30" /></a>
+
+<a href="https://github.com/bojanadjordjevic"><img src="https://github.com/bojanadjordjevic.png" width="30" /></a>
+
+<a href="https://github.com/myles-painter"><img src="https://github.com/myles-painter.png" width="30" /></a>
