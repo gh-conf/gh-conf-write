@@ -18,11 +18,13 @@ It needs respository path as input to read the config.
 
 Please consider donating, if you like my work
 
+
 ## Install
 
 ```
 $ npm install @gh-conf/gh-conf-write
 ```
+
 
 ## Usage
 
@@ -49,12 +51,14 @@ const { writeConf } = require('@gh-conf/gh-conf-write');
 
 ```
 
+
 ## Contributing
 
 Interested in contributing to this project?
 You can log any issues or suggestion related to this library [here](https://github.com/gh-conf/gh-conf-write/issues/new)
 
 Read our contributing [guide](CONTRIBUTING.md) on getting started with contributing to the codebase
+
 
 ## Contributors Hall of Fame
 
