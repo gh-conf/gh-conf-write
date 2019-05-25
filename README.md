@@ -56,7 +56,7 @@ You can log any issues or suggestion related to this library [here](https://gith
 
 Read our contributing [guide](CONTRIBUTING.md) on getting started with contributing to the codebase
 
-Contributors Hall of Fame
+## Contributors Hall of Fame
 
 <a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
 
