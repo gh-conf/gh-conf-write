@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^8.3.2"
   },
   "dependencies": {
     "@gh-conf/gh-conf-constants": "^1.0.0",
